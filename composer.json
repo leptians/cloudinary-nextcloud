@@ -1,0 +1,15 @@
+{
+    "name": "Cloudinary",
+    "description": "Synchronize your media with Cloudinary",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Erwin Lukas"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

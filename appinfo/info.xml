@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>cloudinary</id>
+    <name>Cloudinary</name>
+    <summary>Synchronize your media with Cloudinary</summary>
+    <description><![CDATA[Streamline media management and improve user experience by automatically delivering images and videos, enhanced and optimized for every user.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="elukas@leptians.net" homepage="https://cloudinary.com">Erwin Lukas</author>
+    <namespace>Cloudinary</namespace>
+    <category>integration</category>
+    <bugs>https://github.com/leptians/cloudinary-nextcloud/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Cloudinary</name>
+            <route>cloudinary.page.index</route>
+        </navigation>
+    </navigations>
+</info>
